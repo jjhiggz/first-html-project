@@ -15,7 +15,7 @@ run the following command
 git init
 ```
 
-## How to store changes in Github
+## How to store changes in Github (Stage and commit changes)
 
 ### Part I
 
@@ -41,13 +41,19 @@ git commit -m "Your message would go right here"
 
 ## Setting up a github repository
 
+### First stage and commit your changes ( all in Git, not in Github )
+
 ### Go to github.com/new
 
 - copy the instructions for the if you already have a project made
 - paste them in your terminal and you are good to go probably
 
-## Getting your code onto Github
+## Changing a github repository
 
 ### First stage and commit your changes ( all in Git, not in Github )
 
-### Push changes to github
+### Then Push changes to github
+
+```sh
+git push origin head
+```
